@@ -10,22 +10,12 @@ package MenuItems;
  * @author riley.abrahamson
  */
 public class Pizza extends Entre {
-    private int size;
-    private boolean deepDish;
-    private String meat;
-    
-
-    public Pizza(String name, double price, int prepTime, String sides, int size, boolean deepDish, String meat){
-        this.deepDish = deepDish;
-        this.meat = meat;
-        this.size = size;
-    }
     private boolean hasMeat;
     private boolean hasPineapple;
-    
+
     public Pizza(String newName, double newPrice, char newSize, boolean isMeaty, boolean isPineappley)
     {
-      
+        super(newName, newSize, newPrice);
         hasMeat = isMeaty;
         hasPineapple = isPineappley;
     }

@@ -10,16 +10,11 @@ package MenuItems;
  * @author riley.abrahamson
  */
 public class Pasta extends Entre {
-    private String meat;
-    
-    public Pasta(String name, double price, int prepTime, String sides, String sauces, String meat){
-        this.meat = meat;
-    }
-
     private boolean glutenFree;
     
     public Pasta(String newName, double newPrice, char newSize, boolean isGlutenFree)
     {
+        super(newName, newSize, newPrice);
         glutenFree = isGlutenFree;
     }
 

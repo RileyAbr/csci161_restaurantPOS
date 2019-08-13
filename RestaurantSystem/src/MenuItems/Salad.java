@@ -11,12 +11,6 @@ package MenuItems;
  */
 
 public class Salad extends Appetizer {
-    private String meat;
-    private String sauce;
-    public Salad(String name, double price, int prepTime, String meat, String sauce){
-        this.meat = meat;
-        this.sauce = sauce;
-    }
     private boolean hasCroutons;
     
     public Salad(String newName, double newPrice, boolean isCheesy, boolean isCroutony)

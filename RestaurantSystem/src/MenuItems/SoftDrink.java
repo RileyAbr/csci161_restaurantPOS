@@ -10,16 +10,12 @@ package MenuItems;
  * @author riley.abrahamson
  */
 public class SoftDrink extends Drink {
-    
-    public SoftDrink(String name, double price, int prepTime, boolean onRocks){
-       
-    }
-    
 
     private boolean hasFizz;
     
     public SoftDrink(String newName, double newPrice, char newSize, boolean isFizzy)
     {
+        super(newName, newSize, newPrice);
         hasFizz = isFizzy;
     }
 

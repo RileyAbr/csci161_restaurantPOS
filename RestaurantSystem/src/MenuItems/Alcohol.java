@@ -15,6 +15,7 @@ public class Alcohol extends Drink {
     
     public Alcohol(String newName, double newPrice, char newSize, int newProof)
     {
+        super(newName, newSize, newPrice);
         proof = newProof;
     }
 
